@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Parameters>
+  <Connection>
+    <DeviceParameters>/IF=tcpip /LOPO=11159 /SA=1</DeviceParameters>
+    <ConnectionParameters>/RT=1000 /AM=* /SDT=5 /DAIP=10.0.1.10 /REPO=11159 /ANSL=1 /PT=11169</ConnectionParameters>
+  </Connection>
+  <AsProject>
+    <ApjFullFileName>D:\LABA1\LABA_1_true\LABA_1_true.apj</ApjFullFileName>
+    <ProjectName>LABA_1_true</ProjectName>
+    <ActiveConfigurationName>Config1</ActiveConfigurationName>
+    <LicenseDataFolder>D:\LABA1\LABA_1_true\Temp\Objects\Config1\4PP065_0571_P74</LicenseDataFolder>
+  </AsProject>
+  <General>
+    <DeleteParameterFile>false</DeleteParameterFile>
+  </General>
+</Parameters>
