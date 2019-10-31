@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Parameters>
+  <Connection>
+    <DeviceParameters>/IF=tcpip /LOPO=11159 /SA=1</DeviceParameters>
+    <ConnectionParameters>/AM=* /DAIP=10.0.1.10 /REPO=11159 /ANSL=1 /PT=11169</ConnectionParameters>
+  </Connection>
+  <AsProject>
+    <ApjFullFileName>D:\RUSSKIE_SblLA\DriveControl1\DriveControl1.apj</ApjFullFileName>
+    <ProjectName>DriveControl1</ProjectName>
+    <ActiveConfigurationName>SampleText</ActiveConfigurationName>
+    <LicenseDataFolder>D:\RUSSKIE_SblLA\DriveControl1\Temp\Objects\SampleText\4PP065_0571_P74</LicenseDataFolder>
+  </AsProject>
+  <General>
+    <DeleteParameterFile>false</DeleteParameterFile>
+  </General>
+</Parameters>

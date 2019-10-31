@@ -1,0 +1,26 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Main 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=150 Type=0 Scope=0 Force=0 Index=4 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                        instStateMachine                             StateMachine    0 "                                                               *"    0   24    1    0    1    1         
+                                   state                                     UINT    0 "                                                               *"    1    6    1   10    0    0         
+                                  enable                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                 command                                     UINT    0 "                                                               *"    1    6    1   10    0    0         
+                                    door                                   DoorSM    0 "                                                               *"    0   24    1    0    0    1         
+                                  button                                     BOOL    1 "                                                           FALSE"    1    1    1    2    0    0         
+                                      s0                                     BOOL    1 "                                                           FALSE"    1    1    1    2    0    0         
+                                      s1                                     BOOL    1 "                                                           FALSE"    1    1    1    2    0    0         
+                                      s2                                     BOOL    1 "                                                           FALSE"    1    1    1    2    0    0         
+                                      s3                                     BOOL    1 "                                                           FALSE"    1    1    1    2    0    0         
+                                   speed                                      INT    3 "                                                               0"    1    3    1   10    0    0         
+                                    led0                                    USINT    0 "                                                               1"    1    5    1   10    0    0         
+                                    led1                                    USINT    0 "                                                               1"    1    5    1   10    0    0         
+                                    led2                                    USINT    0 "                                                               1"    1    5    1   10    0    0         
+                                    led3                                    USINT    0 "                                                               1"    1    5    1   10    0    0         
+                            DriveControl                             StateMachine    0 "                                                               *"    1   24    1    0    0    1         
+                                   state                                     UINT    1 "                                                            1575"    2    6    1   10    0    0         
+                                  enable                                     BOOL    0 "                                                            TRUE"    2    1    1    2    0    0         
+                                 command                                     UINT    3 "                                                              15"    2    6    1   10    0    0         
+                                   state                                     DINT    0 "                                                               3"    1    4    1   10    0    0 e,0,ST_I
+
+                               max_speed                                      INT    0 "                                                             890"    1    3    1   10    0    0         
+                               min_speed                                      INT    0 "                                                             100"    1    3    1   10    0    0         

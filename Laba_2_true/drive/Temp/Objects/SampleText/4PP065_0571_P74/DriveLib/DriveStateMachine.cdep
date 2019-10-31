@@ -1,0 +1,5 @@
+$(AS_CPU_PATH)/drivelib/drivestatemachine.c.o:
+$(AS_PROJECT_PATH)/logical/libraries/drivelib/drivestatemachine.c
+$(AS_GNU_INST_PATH)/i386-elf/include/bur/plctypes.h
+$(AS_GNU_INST_PATH)/i386-elf/include/bur/plc.h
+$(AS_TEMP_PATH)/includes/drivelib.h
