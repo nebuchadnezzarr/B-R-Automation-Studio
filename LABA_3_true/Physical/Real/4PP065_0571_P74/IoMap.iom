@@ -1,0 +1,23 @@
+VAR_CONFIG
+	Cyclic#1.gAxis03_DrvIf.iLifeCnt AT %IB."8I64xxxxxxx.00x-1".SDC_LifeCnt;
+	Cyclic#1.gAxis03_DrvIf.iDrvOK AT %IX."8I64xxxxxxx.00x-1".ETAD_Input_Bool_02;
+	Cyclic#1.gAxis03_DrvIf.oSetTime AT %QW."8I64xxxxxxx.00x-1".SDC_SetTime;
+	Cyclic#1.gAxis03_DrvIf.oSetPos AT %QW."8I64xxxxxxx.00x-1".LFRD_Output;
+	Cyclic#1.gAxis03_DiDoIf.iLifeCntDriveReady AT %IB."8I64xxxxxxx.00x-1".SDC_LifeCnt;
+	Cyclic#1.gAxis03_DiDoIf.iLifeCntDriveEnable AT %IB."8I64xxxxxxx.00x-1".SDC_LifeCnt;
+	Cyclic#1.gAxis03_DiDoIf.oDriveEnable AT %QX."8I64xxxxxxx.00x-1".CMDD_Output_Bool_00;
+	Cyclic#1.gAxis03_ModuleOk AT %QX."8I64xxxxxxx.00x-1".CMDD_Output_Bool_01;
+	Cyclic#1.gAxis03_ModuleOk AT %QX."8I64xxxxxxx.00x-1".CMDD_Output_Bool_02;
+	Cyclic#1.gAxis03_ModuleOk AT %IX."8I64xxxxxxx.00x-1".ModuleOk;
+	Cyclic#1.gAxis03_DiDoIf.oDriveEnable AT %QX."8I64xxxxxxx.00x-1".CMDD_Output_Bool_03;
+	Cyclic#1.gAxis03_DiDoIf.iDriveReady AT %IX."8I64xxxxxxx.00x-1".ETAD_Input_Bool_02;
+	::SDCAxisCtr:pwm_period AT %QW."X20MM4456".PeriodDurationPWM;
+	::SDCAxisCtr:coil_pwm_value AT %QW."X20MM4456".PulseWidthCurrentPWM04;
+	::SDCAxisCtr:axis_X.pwm_value AT %QW."X20MM4456".PulseWidthCurrentPWM01;
+	::SDCAxisCtr:axis_X.reset_error AT %QX."X20MM4456".ClearError01;
+	::SDCAxisCtr:axis_X.reset_counter AT %QX."X20MM4456".ResetCounter01;
+	::SDCAxisCtr:axis_X.counter AT %IW."X20MM4456".Counter01;
+	::SDCAxisCtr:coil_powered AT %IX."X20DI9371".DigitalInput01;
+	::SDCAxisCtr:axis_X.endswitch_a_reached AT %IX."X20MM4456".StatusInput03;
+	::SDCAxisCtr:axis_X.endswitch_b_reached AT %IX."X20MM4456".StatusInput04;
+END_VAR

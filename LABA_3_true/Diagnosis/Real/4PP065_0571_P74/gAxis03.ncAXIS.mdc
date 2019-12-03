@@ -1,0 +1,31 @@
+i»?<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.5.388?>
+<Diagnosis ConnectionString='NCMGR="Acp10";NCVER="3131";IFTYP="SDC";NCOBJNAM="gAxis03";OBJTYP="ncAXIS";CHL="1";ADDR="SDC_IF1.ST1";IP_MOD="gAxis03i";DIAG_FILE_PATH="C:\projects\SDCAxis\Diagnosis\Real\4PP065_0571_P74\gAxis03.mdc";'>
+<Watch>
+  <Row Parameter="network.init" Value="ncTRUE" />
+  <Row Parameter="network.service.data_text" />
+  <Row Parameter="network.service.request.par_id" Value="798; AUT_MSG_MODE_BITS" />
+  <Row Parameter="network.service.response.par_id" Value="798" />
+  <Row Parameter="monitor.s" Value="0" Unit="Units" />
+  <Row Parameter="monitor.v" Value="0" Unit="Units/s" />
+  <Row Parameter="message.count.error" Value="3" />
+  <Row Parameter="message.count.warning" Value="0" />
+  <Row Parameter="message.record.par_id" Value="995" />
+  <Row Parameter="message.record.number" Value="1" />
+  <Row Parameter="message.record.info" Value="0" />
+</Watch>
+<Action>
+  <Row Subject="ncBASIS_MOVE" Action="ncINIT" />
+  <Row Subject="ncCONTROLLER" Action="ncINIT" />
+  <Row Subject="ncCONTROLLER" Action="ncSWITCH_OFF" />
+  <Row Subject="ncCONTROLLER" Action="ncSWITCH_ON" />
+  <Row Subject="ncGLOBAL" Action="ncINIT" />
+  <Row Subject="ncHOMING" Action="ncSTART" />
+  <Row Subject="ncLIMITS" Action="ncINIT" />
+  <Row Subject="ncREL_MOVE" Action="ncSTART" />
+  <Row Subject="ncSERVICE" Action="ncREAD + ncDATA_TEXT" />
+  <Row Subject="ncSERVICE" Action="ncSET + ncDATA_TEXT" />
+  <Row Subject="ncSIMULATION" Action="ncSWITCH_OFF" />
+  <Row Subject="ncSIMULATION" Action="ncSWITCH_ON" />
+</Action>
+</Diagnosis>

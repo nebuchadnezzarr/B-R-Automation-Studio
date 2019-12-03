@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Crossref Scope="SDCAxisCtrl_X" AppMod="">
+  <Vars>
+    <Var Name="AxisX_HW.EncIf1_Typ" Scope="Global" Type="SdcHwCfg_typ">
+      <File Name="C:/projects/KRBO-02-16/TEST NA LESHINOM COMPE/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="14" C="10" A="W" PS=" Ln:14, Col:10" />
+      </File>
+    </Var>
+    <Var Name="AxisX_HW.DiDoIf_Typ" Scope="Global" Type="SdcHwCfg_typ">
+      <File Name="C:/projects/KRBO-02-16/TEST NA LESHINOM COMPE/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="15" C="10" A="W" PS=" Ln:15, Col:10" />
+      </File>
+    </Var>
+    <Var Name="AxisX_HW.DrvIf_Typ" Scope="Global" Type="SdcHwCfg_typ">
+      <File Name="C:/projects/KRBO-02-16/TEST NA LESHINOM COMPE/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="16" C="10" A="W" PS=" Ln:16, Col:10" />
+      </File>
+    </Var>
+    <Var Name="AxisX_HW.EncIf1_Name" Scope="Global" Type="SdcHwCfg_typ">
+      <File Name="C:/projects/KRBO-02-16/TEST NA LESHINOM COMPE/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="19" C="17" A="RW" PS=" Ln:19, Col:17" />
+      </File>
+    </Var>
+    <Var Name="AxisX_HW.DrvIf_Name" Scope="Global" Type="SdcHwCfg_typ">
+      <File Name="C:/projects/KRBO-02-16/TEST NA LESHINOM COMPE/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="20" C="17" A="RW" PS=" Ln:20, Col:17" />
+      </File>
+    </Var>
+    <Var Name="AxisX_HW.DiDoIf_Name" Scope="Global" Type="SdcHwCfg_typ">
+      <File Name="C:/projects/KRBO-02-16/TEST NA LESHINOM COMPE/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="21" C="17" A="RW" PS=" Ln:21, Col:17" />
+      </File>
+    </Var>
+    <Var Name="AxisX_EncIf.iEncOK" Scope="Global" Type="SdcEncIf16_typ">
+      <File Name="C:/projects/KRBO-02-16/TEST NA LESHINOM COMPE/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="24" C="13" A="W" PS=" Ln:24, Col:13" />
+      </File>
+    </Var>
+    <Var Name="AxisX_DrvIf.iDrvOK" Scope="Global" Type="SdcDrvIf16_typ">
+      <File Name="C:/projects/KRBO-02-16/TEST NA LESHINOM COMPE/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="25" C="13" A="W" PS=" Ln:25, Col:13" />
+      </File>
+    </Var>
+    <Var Name="AxisX_DrvIf.iStatusEnable" Scope="Global" Type="SdcDrvIf16_typ">
+      <File Name="C:/projects/KRBO-02-16/TEST NA LESHINOM COMPE/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="26" C="13" A="W" PS=" Ln:26, Col:13" />
+      </File>
+    </Var>
+    <Var Name="AxisX_DiDoIf.iDriveReady" Scope="Global" Type="SdcDiDoIf_typ">
+      <File Name="C:/projects/KRBO-02-16/TEST NA LESHINOM COMPE/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="27" C="14" A="W" PS=" Ln:27, Col:14" />
+      </File>
+    </Var>
+    <Var Name="fb_regulator" Scope="Global" Type="FB_Regulator">
+      <File Name="C:/projects/KRBO-02-16/TEST NA LESHINOM COMPE/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="61" C="18" A="RW" PS=" Ln:61, Col:18" />
+        <Pos L="70" C="17" A="RW" PS=" Ln:70, Col:17" />
+        <Pos L="101" C="16" A="RW" PS=" Ln:101, Col:16" />
+        <Pos L="109" C="17" A="RW" PS=" Ln:109, Col:17" />
+      </File>
+    </Var>
+    <Var Name="fb_regulator.dt" Scope="Global" Type="FB_Regulator">
+      <File Name="C:/projects/KRBO-02-16/TEST NA LESHINOM COMPE/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="29" C="14" A="W" PS=" Ln:29, Col:14" />
+      </File>
+    </Var>
+    <Var Name="fb_regulator.k_i" Scope="Global" Type="FB_Regulator">
+      <File Name="C:/projects/KRBO-02-16/TEST NA LESHINOM COMPE/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="30" C="14" A="W" PS=" Ln:30, Col:14" />
+      </File>
+    </Var>
+    <Var Name="fb_regulator.k_p" Scope="Global" Type="FB_Regulator">
+      <File Name="C:/projects/KRBO-02-16/TEST NA LESHINOM COMPE/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="31" C="14" A="W" PS=" Ln:31, Col:14" />
+      </File>
+    </Var>
+    <Var Name="fb_regulator.max_abc_value" Scope="Global" Type="FB_Regulator">
+      <File Name="C:/projects/KRBO-02-16/TEST NA LESHINOM COMPE/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="32" C="14" A="W" PS=" Ln:32, Col:14" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCtr.pwm_period" Scope="Local" Type="UINT">
+      <File Name="C:/projects/KRBO-02-16/TEST NA LESHINOM COMPE/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="34" C="2" A="W" PS=" Ln:34, Col:2" />
+      </File>
+    </Var>
+    <Var Name="AxisX_EncIf.iActTime" Scope="Global" Type="SdcEncIf16_typ">
+      <File Name="C:/projects/KRBO-02-16/TEST NA LESHINOM COMPE/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="40" C="13" A="W" PS=" Ln:40, Col:13" />
+      </File>
+    </Var>
+    <Var Name="iPosHwEnd" Scope="Global" Type="BOOL">
+      <File Name="C:/projects/KRBO-02-16/TEST NA LESHINOM COMPE/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="41" C="2" A="W" PS=" Ln:41, Col:2" />
+        <Pos L="56" C="4" A="W" PS=" Ln:56, Col:4" />
+        <Pos L="96" C="2" A="W" PS=" Ln:96, Col:2" />
+        <Pos L="105" C="6" A="R" PS=" Ln:105, Col:6" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCtr.axis_X" Scope="Local" Type="FB_Axis">
+      <File Name="C:/projects/KRBO-02-16/TEST NA LESHINOM COMPE/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="54" C="13" A="RW" PS=" Ln:54, Col:13" />
+        <Pos L="58" C="13" A="RW" PS=" Ln:58, Col:13" />
+        <Pos L="64" C="13" A="RW" PS=" Ln:64, Col:13" />
+        <Pos L="72" C="12" A="RW" PS=" Ln:72, Col:12" />
+        <Pos L="98" C="11" A="RW" PS=" Ln:98, Col:11" />
+        <Pos L="104" C="11" A="RW" PS=" Ln:104, Col:11" />
+        <Pos L="111" C="12" A="RW" PS=" Ln:111, Col:12" />
+        <Pos L="113" C="12" A="RW" PS=" Ln:113, Col:12" />
+        <Pos L="117" C="13" A="RW" PS=" Ln:117, Col:13" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCtr.axis_X.endswitch_a_reached" Scope="Local" Type="FB_Axis">
+      <File Name="C:/projects/KRBO-02-16/TEST NA LESHINOM COMPE/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="41" C="20" A="R" PS=" Ln:41, Col:20" />
+        <Pos L="56" C="22" A="R" PS=" Ln:56, Col:22" />
+        <Pos L="96" C="20" A="R" PS=" Ln:96, Col:20" />
+      </File>
+    </Var>
+    <Var Name="iNegHwEnd" Scope="Global" Type="BOOL">
+      <File Name="C:/projects/KRBO-02-16/TEST NA LESHINOM COMPE/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="42" C="2" A="W" PS=" Ln:42, Col:2" />
+        <Pos L="57" C="4" A="W" PS=" Ln:57, Col:4" />
+        <Pos L="97" C="2" A="W" PS=" Ln:97, Col:2" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCtr.axis_X.endswitch_b_reached" Scope="Local" Type="FB_Axis">
+      <File Name="C:/projects/KRBO-02-16/TEST NA LESHINOM COMPE/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="42" C="20" A="R" PS=" Ln:42, Col:20" />
+        <Pos L="57" C="22" A="R" PS=" Ln:57, Col:22" />
+        <Pos L="97" C="20" A="R" PS=" Ln:97, Col:20" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCtr.coil_powered" Scope="Local" Type="BOOL">
+      <File Name="C:/projects/KRBO-02-16/TEST NA LESHINOM COMPE/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="44" C="5" A="R" PS=" Ln:44, Col:5" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCtr.Already_Homed" Scope="Local" Type="BOOL">
+      <File Name="C:/projects/KRBO-02-16/TEST NA LESHINOM COMPE/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="46" C="7" A="R" PS=" Ln:46, Col:7" />
+        <Pos L="116" C="4" A="W" PS=" Ln:116, Col:4" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCtr.axis_X.reset_counter" Scope="Local" Type="FB_Axis">
+      <File Name="C:/projects/KRBO-02-16/TEST NA LESHINOM COMPE/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="53" C="10" A="W" PS=" Ln:53, Col:10" />
+        <Pos L="112" C="9" A="W" PS=" Ln:112, Col:9" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCtr.coil_pwm_value" Scope="Local" Type="INT">
+      <File Name="C:/projects/KRBO-02-16/TEST NA LESHINOM COMPE/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="55" C="4" A="W" PS=" Ln:55, Col:4" />
+        <Pos L="68" C="3" A="W" PS=" Ln:68, Col:3" />
+        <Pos L="95" C="2" A="W" PS=" Ln:95, Col:2" />
+        <Pos L="107" C="3" A="W" PS=" Ln:107, Col:3" />
+      </File>
+    </Var>
+    <Var Name="fb_regulator.e" Scope="Global" Type="FB_Regulator">
+      <File Name="C:/projects/KRBO-02-16/TEST NA LESHINOM COMPE/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="60" C="16" A="W" PS=" Ln:60, Col:16" />
+        <Pos L="69" C="15" A="W" PS=" Ln:69, Col:15" />
+        <Pos L="100" C="14" A="W" PS=" Ln:100, Col:14" />
+        <Pos L="108" C="15" A="W" PS=" Ln:108, Col:15" />
+      </File>
+    </Var>
+    <Var Name="AxisX_DrvIf.oSetPos" Scope="Global" Type="SdcDrvIf16_typ">
+      <File Name="C:/projects/KRBO-02-16/TEST NA LESHINOM COMPE/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="60" C="33" A="R" PS=" Ln:60, Col:33" />
+        <Pos L="100" C="31" A="R" PS=" Ln:100, Col:31" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCtr.axis_X.speed" Scope="Local" Type="FB_Axis">
+      <File Name="C:/projects/KRBO-02-16/TEST NA LESHINOM COMPE/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="60" C="55" A="R" PS=" Ln:60, Col:55" />
+        <Pos L="100" C="54" A="R" PS=" Ln:100, Col:54" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCtr.axis_X.u" Scope="Local" Type="FB_Axis">
+      <File Name="C:/projects/KRBO-02-16/TEST NA LESHINOM COMPE/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="63" C="10" A="W" PS=" Ln:63, Col:10" />
+        <Pos L="71" C="9" A="W" PS=" Ln:71, Col:9" />
+        <Pos L="103" C="8" A="W" PS=" Ln:103, Col:8" />
+        <Pos L="110" C="9" A="W" PS=" Ln:110, Col:9" />
+      </File>
+    </Var>
+    <Var Name="fb_regulator.u" Scope="Global" Type="FB_Regulator">
+      <File Name="C:/projects/KRBO-02-16/TEST NA LESHINOM COMPE/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="63" C="27" A="R" PS=" Ln:63, Col:27" />
+        <Pos L="103" C="25" A="R" PS=" Ln:103, Col:25" />
+      </File>
+    </Var>
+    <Var Name="AxisX_EncIf.iLifeCnt" Scope="Global" Type="SdcEncIf16_typ">
+      <File Name="C:/projects/KRBO-02-16/TEST NA LESHINOM COMPE/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="82" C="13" A="W" PS=" Ln:82, Col:13" />
+      </File>
+    </Var>
+    <Var Name="AxisX_DiDoIf.iLifeCntDriveEnable" Scope="Global" Type="SdcDiDoIf_typ">
+      <File Name="C:/projects/KRBO-02-16/TEST NA LESHINOM COMPE/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="83" C="14" A="W" PS=" Ln:83, Col:14" />
+      </File>
+    </Var>
+    <Var Name="AxisX_DiDoIf.iLifeCntDriveReady" Scope="Global" Type="SdcDiDoIf_typ">
+      <File Name="C:/projects/KRBO-02-16/TEST NA LESHINOM COMPE/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="84" C="14" A="W" PS=" Ln:84, Col:14" />
+      </File>
+    </Var>
+    <Var Name="AxisX_DiDoIf.iLifeCntNegHwEnd" Scope="Global" Type="SdcDiDoIf_typ">
+      <File Name="C:/projects/KRBO-02-16/TEST NA LESHINOM COMPE/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="85" C="14" A="W" PS=" Ln:85, Col:14" />
+      </File>
+    </Var>
+    <Var Name="AxisX_DiDoIf.iLifeCntPosHwEnd" Scope="Global" Type="SdcDiDoIf_typ">
+      <File Name="C:/projects/KRBO-02-16/TEST NA LESHINOM COMPE/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="86" C="14" A="W" PS=" Ln:86, Col:14" />
+      </File>
+    </Var>
+    <Var Name="AxisX_DiDoIf.iLifeCntReference" Scope="Global" Type="SdcDiDoIf_typ">
+      <File Name="C:/projects/KRBO-02-16/TEST NA LESHINOM COMPE/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="87" C="14" A="W" PS=" Ln:87, Col:14" />
+      </File>
+    </Var>
+    <Var Name="AxisX_DrvIf.iLifeCnt" Scope="Global" Type="SdcDrvIf16_typ">
+      <File Name="C:/projects/KRBO-02-16/TEST NA LESHINOM COMPE/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="88" C="13" A="W" PS=" Ln:88, Col:13" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCtr.k" Scope="Local" Type="INT">
+      <File Name="C:/projects/KRBO-02-16/TEST NA LESHINOM COMPE/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="114" C="6" A="R" PS=" Ln:114, Col:6" />
+        <Pos L="119" C="3" A="W" PS=" Ln:119, Col:3" />
+      </File>
+    </Var>
+  </Vars>
+  <Consts>
+    <Const Name="ncSDC_ENC16" Scope="Global" Type="UINT">
+      <File Name="C:/projects/KRBO-02-16/TEST NA LESHINOM COMPE/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="14" C="24" A="R" PS=" Ln:14, Col:24" />
+      </File>
+    </Const>
+    <Const Name="ncSDC_DRVSERVO16" Scope="Global" Type="UINT">
+      <File Name="C:/projects/KRBO-02-16/TEST NA LESHINOM COMPE/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="16" C="23" A="R" PS=" Ln:16, Col:23" />
+      </File>
+    </Const>
+    <Const Name="ncSDC_DIDO" Scope="Global" Type="UINT">
+      <File Name="C:/projects/KRBO-02-16/TEST NA LESHINOM COMPE/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="15" C="24" A="R" PS=" Ln:15, Col:24" />
+      </File>
+    </Const>
+  </Consts>
+  <Funcs>
+    <Func Name="AsIOTimeCyclicStart" Lib="">
+      <File Name="C:/projects/KRBO-02-16/TEST NA LESHINOM COMPE/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="40" C="30" PS=" Ln:40, Col:30" />
+      </File>
+    </Func>
+    <Func Name="FB_Axis" Lib="">
+      <File Name="C:/projects/KRBO-02-16/TEST NA LESHINOM COMPE/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="54" C="4" PS=" Ln:54, Col:4" />
+        <Pos L="58" C="4" PS=" Ln:58, Col:4" />
+        <Pos L="64" C="4" PS=" Ln:64, Col:4" />
+        <Pos L="72" C="3" PS=" Ln:72, Col:3" />
+        <Pos L="98" C="2" PS=" Ln:98, Col:2" />
+        <Pos L="104" C="2" PS=" Ln:104, Col:2" />
+        <Pos L="111" C="3" PS=" Ln:111, Col:3" />
+        <Pos L="113" C="3" PS=" Ln:113, Col:3" />
+        <Pos L="117" C="4" PS=" Ln:117, Col:4" />
+      </File>
+    </Func>
+    <Func Name="FB_Regulator" Lib="">
+      <File Name="C:/projects/KRBO-02-16/TEST NA LESHINOM COMPE/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="61" C="4" PS=" Ln:61, Col:4" />
+        <Pos L="70" C="3" PS=" Ln:70, Col:3" />
+        <Pos L="101" C="2" PS=" Ln:101, Col:2" />
+        <Pos L="109" C="3" PS=" Ln:109, Col:3" />
+      </File>
+    </Func>
+  </Funcs>
+</Crossref>

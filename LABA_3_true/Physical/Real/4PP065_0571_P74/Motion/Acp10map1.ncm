@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.5.2.102?>
+<NcMapping NcSwId="ACP10" DisabledNodesAreHidden="False">
+  <NcObject Name="AxisX" ModuleAddress="SDC_IF1.ST2" InterfaceType="SDC" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="gAxis03i" AcoposParameter="gAxis03a" AdditionalData="CNC_Enabled=&quot;1&quot; " Disabled="FALSE" ModuleDisabled="FALSE" />
+  <NcObject Name="AxisY" ModuleAddress="SDC_IF1.ST3" InterfaceType="SDC" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="AxisInit" AcoposParameter="AxisApt" AdditionalData="CNC_Enabled=&quot;1&quot; " Disabled="FALSE" />
+  <NcObject Name="AxisZ" ModuleAddress="SDC_IF1.ST4" InterfaceType="SDC" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="AxisInit" AcoposParameter="AxisApt" AdditionalData="CNC_Enabled=&quot;1&quot; " Disabled="FALSE" />
+</NcMapping>

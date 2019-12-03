@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.5.388?>
+<Library Version="3.13.1" Description="Smart Device Controller" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>acp10sdc.var</File>
+    <File>acp10sdc.typ</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="Acp10man" FromVersion="3.13.1" ToVersion="3.13.1" />
+  </Dependencies>
+</Library>

@@ -1,0 +1,36 @@
+VAR
+	AxisX : ACP10AXIS_typ := (0);
+	AxisX_EncIf : SdcEncIf16_typ := (0);
+	AxisX_DrvIf : SdcDrvIf16_typ := (0);
+	AxisX_DiDoIf : SdcDiDoIf_typ := (0);
+	AxisX_HW : SdcHwCfg_typ := (0);
+	gAxis01 : ACP10AXIS_typ := (0);
+	gAxis02 : ACP10AXIS_typ := (0);
+	gAxisTest : ACP10AXIS_typ := (0);
+	gAxisTest_HW : SdcHwCfg_typ := (0);
+	gAxisTest_DrvIf : SdcDrvIf16_typ := (0);
+	gAxisTest_DiDoIf : SdcDiDoIf_typ := (0);
+	gAxisTest_ModuleOk : BOOL := 0;
+	gAxis03 : ACP10AXIS_typ := (0);
+	gAxis03_HW : SdcHwCfg_typ := (0);
+	gAxis03_DrvIf : SdcDrvIf16_typ := (0);
+	gAxis03_DiDoIf : SdcDiDoIf_typ := (0);
+	gAxis03_ModuleOk : BOOL := 0;
+	CNCsys : ARNC0CNC_typ;
+	gAxis04 : ACP10AXIS_typ := (0);
+	gAxis05 : ACP10AXIS_typ := (0);
+	gAxis05_HW : SdcHwCfg_typ := (0);
+	gAxis05_DrvIf : SdcDrvIf16_typ := (0);
+	gAxis05_EncIf1 : SdcEncIf16_typ := (0);
+	gAxis05_DiDoIf : SdcDiDoIf_typ := (0);
+	gAxis05_MotorStep0 : INT := 0;
+	coil_powered : BOOL := FALSE;
+	coil_pwm_value : INT := 0;
+	fb_regulator : FB_Regulator;
+	pwm_period : UINT := 0;
+	axis_X : FB_Axis := (0);
+	iPosHwEnd : BOOL := FALSE;
+	iNegHwEnd : BOOL := FALSE;
+	iActPos : USINT := 0;
+	oSetPos : USINT := 0;
+END_VAR

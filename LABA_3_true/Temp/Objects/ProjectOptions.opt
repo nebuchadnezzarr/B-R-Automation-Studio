@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.5.2.102"?>
+<ProjectOptions
+  IecNamingConventions="true"
+  IecKeywordsAsStructureMembers="false"
+  IecExtendedConstants="true"
+  LogicalDirectory="C:\projects\KRBO-02-16\TEST NA LESHINOM COMPE\Logical\"
+  TempDirectory="C:\projects\KRBO-02-16\TEST NA LESHINOM COMPE\Temp\"
+  AutomationStudioVersion="4.5.2.102"
+  AutomationStudioEdition="Standard"
+  CrossReference="true"
+  ActiveConfiguration="Real"
+  CreateAnsiCDeclarations="false" />

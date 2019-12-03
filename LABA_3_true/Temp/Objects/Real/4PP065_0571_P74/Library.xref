@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Crossref Scope="Libraries.Library" AppMod="">
+  <Vars />
+  <Consts />
+  <Funcs>
+    <Func Name="FB_Integrator" Lib="">
+      <File Name="C:/projects/KRBO-02-16/TEST NA LESHINOM COMPE/Logical/Libraries/Library/FB_Regulator.c">
+        <Pos L="34" C="2" PS=" Ln:34, Col:2" />
+      </File>
+    </Func>
+  </Funcs>
+</Crossref>

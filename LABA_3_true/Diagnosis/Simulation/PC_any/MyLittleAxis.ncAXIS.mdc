@@ -1,0 +1,83 @@
+i»?<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.5.388?>
+<Diagnosis ConnectionString='NCMGR="ACP10";NCVER="3131";IFTYP="SDC";NCOBJNAM="MyLittleAxis";OBJTYP="ncAXIS";CHL="1";ADDR="SDC_IF1.ST1";IP_MOD="MyLittleIn";DIAG_FILE_PATH="C:\projects\SDCAxis\Diagnosis\Simulation\PC_any\MyLittleAxis.mdc";'>
+<Watch>
+  <Row Parameter="network.init" Value="ncTRUE" />
+  <Row Parameter="network.service.data_text" />
+  <Row Parameter="network.service.request.par_id" Value="798; AUT_MSG_MODE_BITS" />
+  <Row Parameter="network.service.response.par_id" Value="798" />
+  <Row Parameter="monitor.s" Value="0" Unit="Units" />
+  <Row Parameter="monitor.v" Value="0" Unit="Units/s" />
+  <Row Parameter="message.count.error" Value="0" />
+  <Row Parameter="message.count.warning" Value="0" />
+  <Row Parameter="message.record.par_id" Value="0" />
+  <Row Parameter="message.record.number" Value="0" />
+  <Row Parameter="message.record.info" Value="0" />
+</Watch>
+<Action>
+  <Row Subject="ncBASIS_MOVE" Action="ncINIT" />
+  <Row Subject="ncCONTROLLER" Action="ncINIT" />
+  <Row Subject="ncCONTROLLER" Action="ncSWITCH_OFF" />
+  <Row Subject="ncCONTROLLER" Action="ncSWITCH_ON" />
+  <Row Subject="ncGLOBAL" Action="ncINIT" />
+  <Row Subject="ncHOMING" Action="ncSTART" />
+  <Row Subject="ncLIMITS" Action="ncINIT" />
+  <Row Subject="ncREL_MOVE" Action="ncSTART" />
+  <Row Subject="ncSERVICE" Action="ncREAD + ncDATA_TEXT" />
+  <Row Subject="ncSERVICE" Action="ncSET + ncDATA_TEXT" />
+  <Row Subject="ncSIMULATION" Action="ncSWITCH_OFF" />
+  <Row Subject="ncSIMULATION" Action="ncSWITCH_ON" />
+</Action>
+<Trace>
+  <Group Parameter="Trace">
+    <Row Parameter="LastActiveTraceOptions" Value="ParIdTrace" />
+    <Group Parameter="TraceOptions">
+      <Group Parameter="TraceOptionsParIdTrace">
+        <Row Parameter="trace.t_trace" Value="0.5" Unit="Seconds" Description="Maximum Tracing Time" />
+        <Row Parameter="trace.t_sampling" Value="0.002" Unit="Seconds" Description="Sampling Time" />
+        <Row Parameter="trace.t_delay" Value="0.0" Unit="Seconds" Description="Trigger Delay" />
+        <Row Parameter="trace.trigger.threshold" Value="0.0" Unit="Units" Description="Threshold" />
+        <Row Parameter="trace.trigger.window" Value="0.001" Unit="Units" Description="Trigger Window" />
+        <Row Parameter="trace.trigger.event" Value="ncOUT_WINDOW + ncENTRY" Description="Trigger Event" />
+        <Row Parameter="trace.trigger.par_id" Value="PCTRL_V_SET on ADDR:SS1.IF1.ST1.AXIS1" Description="Parameter to Trigger on" />
+        <Row Parameter="trace.trigger.NcObjectName" Description="NC Object Name of NC Object to Trigger on" />
+        <Row Parameter="trace.trigger.HwAddress" Value="SS1.IF1.ST1.AXIS1" Description="HW Addresse of NC Object to Trigger on" />
+        <Row Parameter="trace.test_dat[0].par_id" Value="PCTRL_V_SET on ADDR:SS1.IF1.ST1.AXIS1 (auto scaling)" Description="Selected Parameter to Trace 1" />
+        <Row Parameter="trace.test_dat[1].par_id" Value="PCTRL_LAG_ERROR on ADDR:SS1.IF1.ST1.AXIS1 (auto scaling)" Description="Selected Parameter to Trace 2" />
+        <Row Parameter="trace.test_dat[2].par_id" Value="ncOFF" Description="Selected Parameter to Trace 3" />
+        <Row Parameter="trace.test_dat[3].par_id" Value="ncOFF" Description="Selected Parameter to Trace 4" />
+        <Row Parameter="trace.test_dat[4].par_id" Value="ncOFF" Description="Selected Parameter to Trace 5" />
+        <Row Parameter="trace.test_dat[5].par_id" Value="ncOFF" Description="Selected Parameter to Trace 6" />
+        <Row Parameter="trace.test_dat[6].par_id" Value="ncOFF" Description="Selected Parameter to Trace 7" />
+        <Row Parameter="trace.test_dat[7].par_id" Value="ncOFF" Description="Selected Parameter to Trace 8" />
+        <Row Parameter="trace.test_dat[8].par_id" Value="ncOFF" Description="Selected Parameter to Trace 9" />
+        <Row Parameter="trace.test_dat[9].par_id" Value="ncOFF" Description="Selected Parameter to Trace 10" />
+      </Group>
+      <Group Parameter="TraceOptionsModuleTrace">
+        <Row Parameter="trace.t_trace" Value="0.5" Unit="Seconds" Description="Maximum Tracing Time" />
+        <Row Parameter="trace.t_sampling" Value="0.002" Unit="Seconds" Description="Sampling Time" />
+        <Row Parameter="trace.t_delay" Value="0.0" Unit="Seconds" Description="Trigger Delay" />
+        <Row Parameter="trace.trigger.threshold" Value="0.0" Unit="Units" Description="Threshold" />
+        <Row Parameter="trace.trigger.event" Value="ncMOVE_BEG" Description="Trigger Event" />
+        <Row Parameter="trace.trigger.type" Description="TracePoint to Trigger on" />
+        <Row Parameter="trace.trigger.NcObjectName" Description="NC Object Name of NC Object to Trigger on" />
+        <Row Parameter="trace.trigger.HwAddress" Value="SS1.IF1.ST1.AXIS1" Description="HW Addresse of NC Object to Trigger on" />
+        <Row Parameter="trace.test_dat[0].type" Value="ncV_SET on ADDR:SS1.IF1.ST1.AXIS1 (auto scaling)" Description="Selected TracePoint to Trace 1" />
+        <Row Parameter="trace.test_dat[1].type" Value="ncLAG_ERR on ADDR:SS1.IF1.ST1.AXIS1 (auto scaling)" Description="Selected TracePoint to Trace 2" />
+        <Row Parameter="trace.test_dat[2].type" Value="ncOFF" Description="Selected TracePoint to Trace 3" />
+        <Row Parameter="trace.test_dat[3].type" Value="ncOFF" Description="Selected TracePoint to Trace 4" />
+        <Row Parameter="trace.test_dat[4].type" Value="ncOFF" Description="Selected TracePoint to Trace 5" />
+        <Row Parameter="trace.test_dat[5].type" Value="ncOFF" Description="Selected TracePoint to Trace 6" />
+        <Row Parameter="trace.test_dat[6].type" Value="ncOFF" Description="Selected TracePoint to Trace 7" />
+        <Row Parameter="trace.test_dat[7].type" Value="ncOFF" Description="Selected TracePoint to Trace 8" />
+        <Row Parameter="trace.test_dat[8].type" Value="ncOFF" Description="Selected TracePoint to Trace 9" />
+        <Row Parameter="trace.test_dat[9].type" Value="ncOFF" Description="Selected TracePoint to Trace 10" />
+      </Group>
+    </Group>
+    <Group Parameter="ChartControl">
+      <Group Parameter="ChartControlSettings" />
+      <Group Parameter="ChartControlData" />
+    </Group>
+  </Group>
+</Trace>
+</Diagnosis>

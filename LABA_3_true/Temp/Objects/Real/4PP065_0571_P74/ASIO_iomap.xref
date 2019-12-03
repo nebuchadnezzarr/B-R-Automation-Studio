@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.0?>
+<Crossref Scope="" Desc="" AppMod="" xmlns="http://br-automation.co.at/AS/Crossreference">
+	<Vars>
+		<Var Name="::SDCAxisCtr.axis_X.reset_error" Scope="Local" Type="FB_Axis" Desc="">
+			<File Name="C:\projects\KRBO-02-16\TEST NA LESHINOM COMPE\Physical\Real\4PP065_0571_P74\IoMap.iom" Desc="">
+				<Pos L="17" PS=" Ln:17" A="R" O="%QX.&quot;X20MM4456&quot;.ClearError01"/>
+			</File>
+		</Var>
+		<Var Name="gAxis03_ModuleOk" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:\projects\KRBO-02-16\TEST NA LESHINOM COMPE\Physical\Real\4PP065_0571_P74\IoMap.iom" Desc="">
+				<Pos L="9" PS=" Ln:9" A="R" O="%QX.&quot;8I64xxxxxxx.00x-1&quot;.CMDD_Output_Bool_01"/>
+				<Pos L="10" PS=" Ln:10" A="R" O="%QX.&quot;8I64xxxxxxx.00x-1&quot;.CMDD_Output_Bool_02"/>
+				<Pos L="11" PS=" Ln:11" A="W" O="%IX.&quot;8I64xxxxxxx.00x-1&quot;.ModuleOk"/>
+			</File>
+		</Var>
+		<Var Name="gAxis03_DrvIf.oSetTime" Scope="Global" Type="SdcDrvIf16_typ" Desc="">
+			<File Name="C:\projects\KRBO-02-16\TEST NA LESHINOM COMPE\Physical\Real\4PP065_0571_P74\IoMap.iom" Desc="">
+				<Pos L="4" PS=" Ln:4" A="R" O="%QW.&quot;8I64xxxxxxx.00x-1&quot;.SDC_SetTime"/>
+			</File>
+		</Var>
+		<Var Name="gAxis03_DrvIf.iLifeCnt" Scope="Global" Type="SdcDrvIf16_typ" Desc="">
+			<File Name="C:\projects\KRBO-02-16\TEST NA LESHINOM COMPE\Physical\Real\4PP065_0571_P74\IoMap.iom" Desc="">
+				<Pos L="2" PS=" Ln:2" A="W" O="%IB.&quot;8I64xxxxxxx.00x-1&quot;.SDC_LifeCnt"/>
+			</File>
+		</Var>
+		<Var Name="::SDCAxisCtr.pwm_period" Scope="Local" Type="UINT" Desc="">
+			<File Name="C:\projects\KRBO-02-16\TEST NA LESHINOM COMPE\Physical\Real\4PP065_0571_P74\IoMap.iom" Desc="">
+				<Pos L="14" PS=" Ln:14" A="R" O="%QW.&quot;X20MM4456&quot;.PeriodDurationPWM"/>
+			</File>
+		</Var>
+		<Var Name="::SDCAxisCtr.coil_pwm_value" Scope="Local" Type="INT" Desc="">
+			<File Name="C:\projects\KRBO-02-16\TEST NA LESHINOM COMPE\Physical\Real\4PP065_0571_P74\IoMap.iom" Desc="">
+				<Pos L="15" PS=" Ln:15" A="R" O="%QW.&quot;X20MM4456&quot;.PulseWidthCurrentPWM04"/>
+			</File>
+		</Var>
+		<Var Name="gAxis03_DiDoIf.iLifeCntDriveReady" Scope="Global" Type="SdcDiDoIf_typ" Desc="">
+			<File Name="C:\projects\KRBO-02-16\TEST NA LESHINOM COMPE\Physical\Real\4PP065_0571_P74\IoMap.iom" Desc="">
+				<Pos L="6" PS=" Ln:6" A="W" O="%IB.&quot;8I64xxxxxxx.00x-1&quot;.SDC_LifeCnt"/>
+			</File>
+		</Var>
+		<Var Name="::SDCAxisCtr.coil_powered" Scope="Local" Type="BOOL" Desc="">
+			<File Name="C:\projects\KRBO-02-16\TEST NA LESHINOM COMPE\Physical\Real\4PP065_0571_P74\IoMap.iom" Desc="">
+				<Pos L="20" PS=" Ln:20" A="W" O="%IX.&quot;X20DI9371&quot;.DigitalInput01"/>
+			</File>
+		</Var>
+		<Var Name="::SDCAxisCtr.axis_X.reset_counter" Scope="Local" Type="FB_Axis" Desc="">
+			<File Name="C:\projects\KRBO-02-16\TEST NA LESHINOM COMPE\Physical\Real\4PP065_0571_P74\IoMap.iom" Desc="">
+				<Pos L="18" PS=" Ln:18" A="R" O="%QX.&quot;X20MM4456&quot;.ResetCounter01"/>
+			</File>
+		</Var>
+		<Var Name="gAxis03_DrvIf.iDrvOK" Scope="Global" Type="SdcDrvIf16_typ" Desc="">
+			<File Name="C:\projects\KRBO-02-16\TEST NA LESHINOM COMPE\Physical\Real\4PP065_0571_P74\IoMap.iom" Desc="">
+				<Pos L="3" PS=" Ln:3" A="W" O="%IX.&quot;8I64xxxxxxx.00x-1&quot;.ETAD_Input_Bool_02"/>
+			</File>
+		</Var>
+		<Var Name="gAxis03_DiDoIf.iDriveReady" Scope="Global" Type="SdcDiDoIf_typ" Desc="">
+			<File Name="C:\projects\KRBO-02-16\TEST NA LESHINOM COMPE\Physical\Real\4PP065_0571_P74\IoMap.iom" Desc="">
+				<Pos L="13" PS=" Ln:13" A="W" O="%IX.&quot;8I64xxxxxxx.00x-1&quot;.ETAD_Input_Bool_02"/>
+			</File>
+		</Var>
+		<Var Name="gAxis03_DrvIf.oSetPos" Scope="Global" Type="SdcDrvIf16_typ" Desc="">
+			<File Name="C:\projects\KRBO-02-16\TEST NA LESHINOM COMPE\Physical\Real\4PP065_0571_P74\IoMap.iom" Desc="">
+				<Pos L="5" PS=" Ln:5" A="R" O="%QW.&quot;8I64xxxxxxx.00x-1&quot;.LFRD_Output"/>
+			</File>
+		</Var>
+		<Var Name="gAxis03_DiDoIf.oDriveEnable" Scope="Global" Type="SdcDiDoIf_typ" Desc="">
+			<File Name="C:\projects\KRBO-02-16\TEST NA LESHINOM COMPE\Physical\Real\4PP065_0571_P74\IoMap.iom" Desc="">
+				<Pos L="8" PS=" Ln:8" A="R" O="%QX.&quot;8I64xxxxxxx.00x-1&quot;.CMDD_Output_Bool_00"/>
+				<Pos L="12" PS=" Ln:12" A="R" O="%QX.&quot;8I64xxxxxxx.00x-1&quot;.CMDD_Output_Bool_03"/>
+			</File>
+		</Var>
+		<Var Name="::SDCAxisCtr.axis_X.endswitch_b_reached" Scope="Local" Type="FB_Axis" Desc="">
+			<File Name="C:\projects\KRBO-02-16\TEST NA LESHINOM COMPE\Physical\Real\4PP065_0571_P74\IoMap.iom" Desc="">
+				<Pos L="22" PS=" Ln:22" A="W" O="%IX.&quot;X20MM4456&quot;.StatusInput04"/>
+			</File>
+		</Var>
+		<Var Name="::SDCAxisCtr.axis_X.endswitch_a_reached" Scope="Local" Type="FB_Axis" Desc="">
+			<File Name="C:\projects\KRBO-02-16\TEST NA LESHINOM COMPE\Physical\Real\4PP065_0571_P74\IoMap.iom" Desc="">
+				<Pos L="21" PS=" Ln:21" A="W" O="%IX.&quot;X20MM4456&quot;.StatusInput03"/>
+			</File>
+		</Var>
+		<Var Name="gAxis03_DiDoIf.iLifeCntDriveEnable" Scope="Global" Type="SdcDiDoIf_typ" Desc="">
+			<File Name="C:\projects\KRBO-02-16\TEST NA LESHINOM COMPE\Physical\Real\4PP065_0571_P74\IoMap.iom" Desc="">
+				<Pos L="7" PS=" Ln:7" A="W" O="%IB.&quot;8I64xxxxxxx.00x-1&quot;.SDC_LifeCnt"/>
+			</File>
+		</Var>
+		<Var Name="::SDCAxisCtr.axis_X.pwm_value" Scope="Local" Type="FB_Axis" Desc="">
+			<File Name="C:\projects\KRBO-02-16\TEST NA LESHINOM COMPE\Physical\Real\4PP065_0571_P74\IoMap.iom" Desc="">
+				<Pos L="16" PS=" Ln:16" A="R" O="%QW.&quot;X20MM4456&quot;.PulseWidthCurrentPWM01"/>
+			</File>
+		</Var>
+		<Var Name="::SDCAxisCtr.axis_X.counter" Scope="Local" Type="FB_Axis" Desc="">
+			<File Name="C:\projects\KRBO-02-16\TEST NA LESHINOM COMPE\Physical\Real\4PP065_0571_P74\IoMap.iom" Desc="">
+				<Pos L="19" PS=" Ln:19" A="W" O="%IW.&quot;X20MM4456&quot;.Counter01"/>
+			</File>
+		</Var>
+	</Vars>
+</Crossref>

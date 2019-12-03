@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.5.2.102?>
+<Library SubType="ANSIC" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>Library.fun</File>
+    <File>FB_Motor.c</File>
+    <File>FB_Controller.c</File>
+    <File>FB_Integrator.c</File>
+    <File>FB_Endswitch.c</File>
+    <File>FB_Axis.c</File>
+    <File>FB_Regulator.c</File>
+  </Files>
+</Library>

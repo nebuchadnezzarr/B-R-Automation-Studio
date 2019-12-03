@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.5.388?>
+<NcMapping NcSwId="Acp10" DisabledNodesAreHidden="False">
+  <NcObject Name="gAxis03" ModuleId="8I64xxxxxxx.00x-1" ModuleAddress="SDC_IF1.ST1" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="gAxis03i" AcoposParameter="gAxis03a" AdditionalData="CNC_Enabled=&quot;1&quot; " Disabled="FALSE" ModuleDisabled="FALSE" />
+</NcMapping>
