@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.5.388?>
+<AcoposParameterTable>
+  <Root Name="Parameters">
+    <Parameter Name="SERVO_V_MAX_OUTPUT" ID="64201" Value="4000" Unit="Units/s" Description="Servo drive adjustment: Velocity at maximum output value" />
+    <Parameter Name="SCALE_ENCOD_INCR" ID="109" Value="24" Description="Encoder1: Encoder scaling: increments per encoder revolution" />
+  </Root>
+</AcoposParameterTable>

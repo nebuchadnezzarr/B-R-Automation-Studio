@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.0?>
+<Crossref Scope="" Desc="" AppMod="" xmlns="http://br-automation.co.at/AS/Crossreference">
+	<Vars>
+		<Var Name="::SDCAxisCtr.axis_X.reset_error" Scope="Local" Type="FB_Axis" Desc="">
+			<File Name="C:\projects\laba\Physical\Real\4PP065_0571_P74\IoMap.iom" Desc="">
+				<Pos L="5" PS=" Ln:5" A="R" O="%QX.&quot;X20MM4456&quot;.ClearError01"/>
+			</File>
+		</Var>
+		<Var Name="::SDCAxisCt2.gaxis05.reset_error" Scope="Local" Type="FB_Axis" Desc="">
+			<File Name="C:\projects\laba\Physical\Real\4PP065_0571_P74\IoMap.iom" Desc="">
+				<Pos L="20" PS=" Ln:20" A="R" O="%QX.&quot;X20MM4456&quot;.ClearError03"/>
+			</File>
+		</Var>
+		<Var Name="::SDCAxisCt1.gaxis03.reset_error" Scope="Local" Type="FB_Axis" Desc="">
+			<File Name="C:\projects\laba\Physical\Real\4PP065_0571_P74\IoMap.iom" Desc="">
+				<Pos L="14" PS=" Ln:14" A="R" O="%QX.&quot;X20MM4456&quot;.ClearError02"/>
+			</File>
+		</Var>
+		<Var Name="::SDCAxisCt2.gaxis05.counter" Scope="Local" Type="FB_Axis" Desc="">
+			<File Name="C:\projects\laba\Physical\Real\4PP065_0571_P74\IoMap.iom" Desc="">
+				<Pos L="22" PS=" Ln:22" A="W" O="%IW.&quot;X20MM4456&quot;.Counter03"/>
+			</File>
+		</Var>
+		<Var Name="::SDCAxisCt1.gaxis03.counter" Scope="Local" Type="FB_Axis" Desc="">
+			<File Name="C:\projects\laba\Physical\Real\4PP065_0571_P74\IoMap.iom" Desc="">
+				<Pos L="16" PS=" Ln:16" A="W" O="%IW.&quot;X20MM4456&quot;.Counter02"/>
+			</File>
+		</Var>
+		<Var Name="::SDCAxisCtr.pwm_period" Scope="Local" Type="UINT" Desc="">
+			<File Name="C:\projects\laba\Physical\Real\4PP065_0571_P74\IoMap.iom" Desc="">
+				<Pos L="2" PS=" Ln:2" A="R" O="%QW.&quot;X20MM4456&quot;.PeriodDurationPWM"/>
+			</File>
+		</Var>
+		<Var Name="::SDCAxisCtr.coil_pwm_value" Scope="Local" Type="INT" Desc="">
+			<File Name="C:\projects\laba\Physical\Real\4PP065_0571_P74\IoMap.iom" Desc="">
+				<Pos L="3" PS=" Ln:3" A="R" O="%QW.&quot;X20MM4456&quot;.PulseWidthCurrentPWM04"/>
+			</File>
+		</Var>
+		<Var Name="::SDCAxisCt2.gaxis05.pwm_value" Scope="Local" Type="FB_Axis" Desc="">
+			<File Name="C:\projects\laba\Physical\Real\4PP065_0571_P74\IoMap.iom" Desc="">
+				<Pos L="19" PS=" Ln:19" A="R" O="%QW.&quot;X20MM4456&quot;.PulseWidthCurrentPWM03"/>
+			</File>
+		</Var>
+		<Var Name="::SDCAxisCt1.gaxis03.pwm_value" Scope="Local" Type="FB_Axis" Desc="">
+			<File Name="C:\projects\laba\Physical\Real\4PP065_0571_P74\IoMap.iom" Desc="">
+				<Pos L="13" PS=" Ln:13" A="R" O="%QW.&quot;X20MM4456&quot;.PulseWidthCurrentPWM02"/>
+			</File>
+		</Var>
+		<Var Name="::SDCAxisCt2.coil_powered_Z" Scope="Local" Type="BOOL" Desc="">
+			<File Name="C:\projects\laba\Physical\Real\4PP065_0571_P74\IoMap.iom" Desc="">
+				<Pos L="12" PS=" Ln:12" A="W" O="%IX.&quot;X20DI9371&quot;.DigitalInput04"/>
+			</File>
+		</Var>
+		<Var Name="::SDCAxisCt1.coil_powered_Y" Scope="Local" Type="BOOL" Desc="">
+			<File Name="C:\projects\laba\Physical\Real\4PP065_0571_P74\IoMap.iom" Desc="">
+				<Pos L="11" PS=" Ln:11" A="W" O="%IX.&quot;X20DI9371&quot;.DigitalInput03"/>
+			</File>
+		</Var>
+		<Var Name="::SDCAxisCtr.coil_powered_X" Scope="Local" Type="BOOL" Desc="">
+			<File Name="C:\projects\laba\Physical\Real\4PP065_0571_P74\IoMap.iom" Desc="">
+				<Pos L="10" PS=" Ln:10" A="W" O="%IX.&quot;X20DI9371&quot;.DigitalInput02"/>
+			</File>
+		</Var>
+		<Var Name="::SDCAxisCtr.axis_X.reset_counter" Scope="Local" Type="FB_Axis" Desc="">
+			<File Name="C:\projects\laba\Physical\Real\4PP065_0571_P74\IoMap.iom" Desc="">
+				<Pos L="6" PS=" Ln:6" A="R" O="%QX.&quot;X20MM4456&quot;.ResetCounter01"/>
+			</File>
+		</Var>
+		<Var Name="::SDCAxisCt2.gaxis05.reset_counter" Scope="Local" Type="FB_Axis" Desc="">
+			<File Name="C:\projects\laba\Physical\Real\4PP065_0571_P74\IoMap.iom" Desc="">
+				<Pos L="21" PS=" Ln:21" A="R" O="%QX.&quot;X20MM4456&quot;.ResetCounter03"/>
+			</File>
+		</Var>
+		<Var Name="::SDCAxisCt1.gaxis03.reset_counter" Scope="Local" Type="FB_Axis" Desc="">
+			<File Name="C:\projects\laba\Physical\Real\4PP065_0571_P74\IoMap.iom" Desc="">
+				<Pos L="15" PS=" Ln:15" A="R" O="%QX.&quot;X20MM4456&quot;.ResetCounter02"/>
+			</File>
+		</Var>
+		<Var Name="::SDCAxisCt2.gaxis05.endswitch_b_reached" Scope="Local" Type="FB_Axis" Desc="">
+			<File Name="C:\projects\laba\Physical\Real\4PP065_0571_P74\IoMap.iom" Desc="">
+				<Pos L="24" PS=" Ln:24" A="W" O="%IX.&quot;X20MM4456&quot;.StatusInput12"/>
+			</File>
+		</Var>
+		<Var Name="::SDCAxisCt2.gaxis05.endswitch_a_reached" Scope="Local" Type="FB_Axis" Desc="">
+			<File Name="C:\projects\laba\Physical\Real\4PP065_0571_P74\IoMap.iom" Desc="">
+				<Pos L="23" PS=" Ln:23" A="W" O="%IX.&quot;X20MM4456&quot;.StatusInput11"/>
+			</File>
+		</Var>
+		<Var Name="::SDCAxisCt1.gaxis03.endswitch_b_reached" Scope="Local" Type="FB_Axis" Desc="">
+			<File Name="C:\projects\laba\Physical\Real\4PP065_0571_P74\IoMap.iom" Desc="">
+				<Pos L="18" PS=" Ln:18" A="W" O="%IX.&quot;X20MM4456&quot;.StatusInput08"/>
+			</File>
+		</Var>
+		<Var Name="::SDCAxisCt1.gaxis03.endswitch_a_reached" Scope="Local" Type="FB_Axis" Desc="">
+			<File Name="C:\projects\laba\Physical\Real\4PP065_0571_P74\IoMap.iom" Desc="">
+				<Pos L="17" PS=" Ln:17" A="W" O="%IX.&quot;X20MM4456&quot;.StatusInput07"/>
+			</File>
+		</Var>
+		<Var Name="::SDCAxisCtr.axis_X.endswitch_b_reached" Scope="Local" Type="FB_Axis" Desc="">
+			<File Name="C:\projects\laba\Physical\Real\4PP065_0571_P74\IoMap.iom" Desc="">
+				<Pos L="9" PS=" Ln:9" A="W" O="%IX.&quot;X20MM4456&quot;.StatusInput04"/>
+			</File>
+		</Var>
+		<Var Name="::SDCAxisCtr.axis_X.endswitch_a_reached" Scope="Local" Type="FB_Axis" Desc="">
+			<File Name="C:\projects\laba\Physical\Real\4PP065_0571_P74\IoMap.iom" Desc="">
+				<Pos L="8" PS=" Ln:8" A="W" O="%IX.&quot;X20MM4456&quot;.StatusInput03"/>
+			</File>
+		</Var>
+		<Var Name="::SDCAxisCtr.axis_X.pwm_value" Scope="Local" Type="FB_Axis" Desc="">
+			<File Name="C:\projects\laba\Physical\Real\4PP065_0571_P74\IoMap.iom" Desc="">
+				<Pos L="4" PS=" Ln:4" A="R" O="%QW.&quot;X20MM4456&quot;.PulseWidthCurrentPWM01"/>
+			</File>
+		</Var>
+		<Var Name="::SDCAxisCtr.axis_X.counter" Scope="Local" Type="FB_Axis" Desc="">
+			<File Name="C:\projects\laba\Physical\Real\4PP065_0571_P74\IoMap.iom" Desc="">
+				<Pos L="7" PS=" Ln:7" A="W" O="%IW.&quot;X20MM4456&quot;.Counter01"/>
+			</File>
+		</Var>
+	</Vars>
+</Crossref>

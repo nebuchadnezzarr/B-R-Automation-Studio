@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.5.2.102"?>
+<ConfigInfo xmlns="http://br-automation.co.at/AS/BuildInfo">
+  <TaskClass
+    Name="Cyclic#1">
+    <Task
+      Name="SDCAxisCtr"
+      Disable="false"
+      Source="SDCAxisCtrl_X"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\laba\Logical\SDCAxisCtrl_X\Variables.var" />
+    </Task>
+    <Task
+      Name="SDCAxisCt2"
+      Disable="false"
+      Source="SDCAxisCtrl_Z"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\laba\Logical\SDCAxisCtrl_Z\Types.typ" />
+      <File
+        Path="C:\projects\laba\Logical\SDCAxisCtrl_Z\Variables.var" />
+    </Task>
+    <Task
+      Name="SDCAxisCt1"
+      Disable="false"
+      Source="SDCAxisCtrl_Y"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\laba\Logical\SDCAxisCtrl_Y\Types.typ" />
+      <File
+        Path="C:\projects\laba\Logical\SDCAxisCtrl_Y\Variables.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#2" />
+  <TaskClass
+    Name="Cyclic#3" />
+  <TaskClass
+    Name="Cyclic#4" />
+  <TaskClass
+    Name="Cyclic#5" />
+  <TaskClass
+    Name="Cyclic#6" />
+  <TaskClass
+    Name="Cyclic#7" />
+  <TaskClass
+    Name="Cyclic#8" />
+</ConfigInfo>

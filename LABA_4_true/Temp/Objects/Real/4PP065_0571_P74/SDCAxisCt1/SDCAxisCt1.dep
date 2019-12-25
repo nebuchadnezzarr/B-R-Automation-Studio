@@ -1,0 +1,6 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/AsIOTime/AsIOTime.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/Library/Library.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/asstring/asstring.fun
+$(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Logical/Libraries/Acp10sdc/acp10sdc.typ
+$(AS_PROJECT_PATH)/Logical/SDCAxisCtrl_Y/Variables.var

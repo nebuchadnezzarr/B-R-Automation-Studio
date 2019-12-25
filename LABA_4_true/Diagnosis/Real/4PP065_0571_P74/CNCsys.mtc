@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<?AutomationStudio Version="4.2.5.388"?>
+<Trace>
+  <Configuration Type="CNC" Active="true">
+    <Sampling SamplingTime="0.052" TracingTime="44.356" CalculateSamplingTime="False" CalculateTracingTime="True">
+      <Trigger Delay="0" Threshold="0" Condition="ncOFF" NcObject="AxisY" ID="11" />
+    </Sampling>
+    <Channels>
+      <Channel Traced="True" NcObject="AxisX" ID="11" Description="Actual Position" />
+      <Channel Traced="True" NcObject="AxisY" ID="11" Description="Actual Position" />
+      <Channel Traced="True" NcObject="AxisZ" ID="11" Description="Actual Position" />
+    </Channels>
+  </Configuration>
+</Trace>

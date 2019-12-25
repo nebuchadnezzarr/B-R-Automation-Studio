@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=?>
+<AcoposParameterTable>
+  <Root Name="Parameters">
+    <Parameter Name="SM_SCALE_STEP" ID="64232" Value="51200" />
+    <Parameter Name="SM_SCALE_LOAD_UNITS" ID="64233" Value="1000" />
+    <Parameter Name="SM_SCALE_LOAD_MOTREV" ID="64234" Value="1" />
+    <Parameter Name="SCALE_ENCOD_INCR" ID="109" Value="1024" />
+  </Root>
+</AcoposParameterTable>

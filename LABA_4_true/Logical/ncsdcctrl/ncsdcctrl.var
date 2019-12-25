@@ -1,0 +1,3 @@
+VAR
+	gAxis05_oSetPosOld : INT := 0;
+END_VAR

@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Crossref Scope="SDCAxisCtrl_Y" AppMod="">
+  <Vars>
+    <Var Name="gAxis03_HW.EncIf1_Typ" Scope="Global" Type="SdcHwCfg_typ">
+      <File Name="C:/projects/laba/Logical/SDCAxisCtrl_Y/Main.c">
+        <Pos L="15" C="12" A="W" PS=" Ln:15, Col:12" />
+      </File>
+    </Var>
+    <Var Name="gAxis03_HW.DiDoIf_Typ" Scope="Global" Type="SdcHwCfg_typ">
+      <File Name="C:/projects/laba/Logical/SDCAxisCtrl_Y/Main.c">
+        <Pos L="16" C="12" A="W" PS=" Ln:16, Col:12" />
+      </File>
+    </Var>
+    <Var Name="gAxis03_HW.DrvIf_Typ" Scope="Global" Type="SdcHwCfg_typ">
+      <File Name="C:/projects/laba/Logical/SDCAxisCtrl_Y/Main.c">
+        <Pos L="17" C="12" A="W" PS=" Ln:17, Col:12" />
+      </File>
+    </Var>
+    <Var Name="gAxis03_HW.EncIf1_Name" Scope="Global" Type="SdcHwCfg_typ">
+      <File Name="C:/projects/laba/Logical/SDCAxisCtrl_Y/Main.c">
+        <Pos L="20" C="19" A="RW" PS=" Ln:20, Col:19" />
+      </File>
+    </Var>
+    <Var Name="gAxis03_HW.DrvIf_Name" Scope="Global" Type="SdcHwCfg_typ">
+      <File Name="C:/projects/laba/Logical/SDCAxisCtrl_Y/Main.c">
+        <Pos L="21" C="19" A="RW" PS=" Ln:21, Col:19" />
+      </File>
+    </Var>
+    <Var Name="gAxis03_HW.DiDoIf_Name" Scope="Global" Type="SdcHwCfg_typ">
+      <File Name="C:/projects/laba/Logical/SDCAxisCtrl_Y/Main.c">
+        <Pos L="22" C="19" A="RW" PS=" Ln:22, Col:19" />
+      </File>
+    </Var>
+    <Var Name="gAxis03_EncIf.iEncOK" Scope="Global" Type="SdcEncIf16_typ">
+      <File Name="C:/projects/laba/Logical/SDCAxisCtrl_Y/Main.c">
+        <Pos L="25" C="15" A="W" PS=" Ln:25, Col:15" />
+      </File>
+    </Var>
+    <Var Name="gAxis03_DrvIf.iDrvOK" Scope="Global" Type="SdcDrvIf16_typ">
+      <File Name="C:/projects/laba/Logical/SDCAxisCtrl_Y/Main.c">
+        <Pos L="26" C="15" A="W" PS=" Ln:26, Col:15" />
+      </File>
+    </Var>
+    <Var Name="gAxis03_DrvIf.iStatusEnable" Scope="Global" Type="SdcDrvIf16_typ">
+      <File Name="C:/projects/laba/Logical/SDCAxisCtrl_Y/Main.c">
+        <Pos L="27" C="15" A="W" PS=" Ln:27, Col:15" />
+      </File>
+    </Var>
+    <Var Name="gAxis03_DiDoIf.iDriveReady" Scope="Global" Type="SdcDiDoIf_typ">
+      <File Name="C:/projects/laba/Logical/SDCAxisCtrl_Y/Main.c">
+        <Pos L="28" C="16" A="W" PS=" Ln:28, Col:16" />
+      </File>
+    </Var>
+    <Var Name="fb_regulator" Scope="Global" Type="FB_Regulator">
+      <File Name="C:/projects/laba/Logical/SDCAxisCtrl_Y/Main.c">
+        <Pos L="62" C="17" A="RW" PS=" Ln:62, Col:17" />
+        <Pos L="71" C="17" A="RW" PS=" Ln:71, Col:17" />
+      </File>
+    </Var>
+    <Var Name="fb_regulator.dt" Scope="Global" Type="FB_Regulator">
+      <File Name="C:/projects/laba/Logical/SDCAxisCtrl_Y/Main.c">
+        <Pos L="30" C="14" A="W" PS=" Ln:30, Col:14" />
+      </File>
+    </Var>
+    <Var Name="fb_regulator.k_i" Scope="Global" Type="FB_Regulator">
+      <File Name="C:/projects/laba/Logical/SDCAxisCtrl_Y/Main.c">
+        <Pos L="31" C="14" A="W" PS=" Ln:31, Col:14" />
+      </File>
+    </Var>
+    <Var Name="fb_regulator.k_p" Scope="Global" Type="FB_Regulator">
+      <File Name="C:/projects/laba/Logical/SDCAxisCtrl_Y/Main.c">
+        <Pos L="32" C="14" A="W" PS=" Ln:32, Col:14" />
+      </File>
+    </Var>
+    <Var Name="fb_regulator.max_abc_value" Scope="Global" Type="FB_Regulator">
+      <File Name="C:/projects/laba/Logical/SDCAxisCtrl_Y/Main.c">
+        <Pos L="33" C="14" A="W" PS=" Ln:33, Col:14" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCt1.pwm_period" Scope="Local" Type="UINT">
+      <File Name="C:/projects/laba/Logical/SDCAxisCtrl_Y/Main.c">
+        <Pos L="35" C="2" A="W" PS=" Ln:35, Col:2" />
+      </File>
+    </Var>
+    <Var Name="gAxis03_EncIf.iActTime" Scope="Global" Type="SdcEncIf16_typ">
+      <File Name="C:/projects/laba/Logical/SDCAxisCtrl_Y/Main.c">
+        <Pos L="41" C="15" A="W" PS=" Ln:41, Col:15" />
+      </File>
+    </Var>
+    <Var Name="gAxis03_DiDoIf.iPosHwEnd" Scope="Global" Type="SdcDiDoIf_typ">
+      <File Name="C:/projects/laba/Logical/SDCAxisCtrl_Y/Main.c">
+        <Pos L="42" C="16" A="W" PS=" Ln:42, Col:16" />
+        <Pos L="57" C="17" A="W" PS=" Ln:57, Col:17" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCt1.gaxis03" Scope="Local" Type="FB_Axis">
+      <File Name="C:/projects/laba/Logical/SDCAxisCtrl_Y/Main.c">
+        <Pos L="55" C="12" A="RW" PS=" Ln:55, Col:12" />
+        <Pos L="59" C="12" A="RW" PS=" Ln:59, Col:12" />
+        <Pos L="65" C="12" A="RW" PS=" Ln:65, Col:12" />
+        <Pos L="73" C="12" A="RW" PS=" Ln:73, Col:12" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCt1.gaxis03.endswitch_a_reached" Scope="Local" Type="FB_Axis">
+      <File Name="C:/projects/laba/Logical/SDCAxisCtrl_Y/Main.c">
+        <Pos L="42" C="36" A="R" PS=" Ln:42, Col:36" />
+        <Pos L="57" C="37" A="R" PS=" Ln:57, Col:37" />
+      </File>
+    </Var>
+    <Var Name="gAxis03_DiDoIf.iNegHwEnd" Scope="Global" Type="SdcDiDoIf_typ">
+      <File Name="C:/projects/laba/Logical/SDCAxisCtrl_Y/Main.c">
+        <Pos L="43" C="16" A="W" PS=" Ln:43, Col:16" />
+        <Pos L="58" C="17" A="W" PS=" Ln:58, Col:17" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCt1.gaxis03.endswitch_b_reached" Scope="Local" Type="FB_Axis">
+      <File Name="C:/projects/laba/Logical/SDCAxisCtrl_Y/Main.c">
+        <Pos L="43" C="36" A="R" PS=" Ln:43, Col:36" />
+        <Pos L="58" C="37" A="R" PS=" Ln:58, Col:37" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCt1.coil_powered_Y" Scope="Local" Type="BOOL">
+      <File Name="C:/projects/laba/Logical/SDCAxisCtrl_Y/Main.c">
+        <Pos L="45" C="5" A="R" PS=" Ln:45, Col:5" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCt1.gaxis03.reset_counter" Scope="Local" Type="FB_Axis">
+      <File Name="C:/projects/laba/Logical/SDCAxisCtrl_Y/Main.c">
+        <Pos L="54" C="10" A="W" PS=" Ln:54, Col:10" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCt1.coil_pwm_value" Scope="Local" Type="INT">
+      <File Name="C:/projects/laba/Logical/SDCAxisCtrl_Y/Main.c">
+        <Pos L="56" C="3" A="W" PS=" Ln:56, Col:3" />
+        <Pos L="69" C="3" A="W" PS=" Ln:69, Col:3" />
+      </File>
+    </Var>
+    <Var Name="fb_regulator.e" Scope="Global" Type="FB_Regulator">
+      <File Name="C:/projects/laba/Logical/SDCAxisCtrl_Y/Main.c">
+        <Pos L="61" C="15" A="W" PS=" Ln:61, Col:15" />
+        <Pos L="70" C="15" A="W" PS=" Ln:70, Col:15" />
+      </File>
+    </Var>
+    <Var Name="gAxis03_DrvIf.oSetPos" Scope="Global" Type="SdcDrvIf16_typ">
+      <File Name="C:/projects/laba/Logical/SDCAxisCtrl_Y/Main.c">
+        <Pos L="61" C="34" A="R" PS=" Ln:61, Col:34" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCt1.gaxis03.speed" Scope="Local" Type="FB_Axis">
+      <File Name="C:/projects/laba/Logical/SDCAxisCtrl_Y/Main.c">
+        <Pos L="61" C="58" A="R" PS=" Ln:61, Col:58" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCt1.gaxis03.u" Scope="Local" Type="FB_Axis">
+      <File Name="C:/projects/laba/Logical/SDCAxisCtrl_Y/Main.c">
+        <Pos L="64" C="10" A="W" PS=" Ln:64, Col:10" />
+        <Pos L="72" C="10" A="W" PS=" Ln:72, Col:10" />
+      </File>
+    </Var>
+    <Var Name="fb_regulator.u" Scope="Global" Type="FB_Regulator">
+      <File Name="C:/projects/laba/Logical/SDCAxisCtrl_Y/Main.c">
+        <Pos L="64" C="27" A="R" PS=" Ln:64, Col:27" />
+      </File>
+    </Var>
+    <Var Name="gAxis03_EncIf.iLifeCnt" Scope="Global" Type="SdcEncIf16_typ">
+      <File Name="C:/projects/laba/Logical/SDCAxisCtrl_Y/Main.c">
+        <Pos L="83" C="15" A="W" PS=" Ln:83, Col:15" />
+      </File>
+    </Var>
+    <Var Name="gAxis03_DiDoIf.iLifeCntDriveEnable" Scope="Global" Type="SdcDiDoIf_typ">
+      <File Name="C:/projects/laba/Logical/SDCAxisCtrl_Y/Main.c">
+        <Pos L="84" C="16" A="W" PS=" Ln:84, Col:16" />
+      </File>
+    </Var>
+    <Var Name="gAxis03_DiDoIf.iLifeCntDriveReady" Scope="Global" Type="SdcDiDoIf_typ">
+      <File Name="C:/projects/laba/Logical/SDCAxisCtrl_Y/Main.c">
+        <Pos L="85" C="16" A="W" PS=" Ln:85, Col:16" />
+      </File>
+    </Var>
+    <Var Name="gAxis03_DiDoIf.iLifeCntNegHwEnd" Scope="Global" Type="SdcDiDoIf_typ">
+      <File Name="C:/projects/laba/Logical/SDCAxisCtrl_Y/Main.c">
+        <Pos L="86" C="16" A="W" PS=" Ln:86, Col:16" />
+      </File>
+    </Var>
+    <Var Name="gAxis03_DiDoIf.iLifeCntPosHwEnd" Scope="Global" Type="SdcDiDoIf_typ">
+      <File Name="C:/projects/laba/Logical/SDCAxisCtrl_Y/Main.c">
+        <Pos L="87" C="16" A="W" PS=" Ln:87, Col:16" />
+      </File>
+    </Var>
+    <Var Name="gAxis03_DiDoIf.iLifeCntReference" Scope="Global" Type="SdcDiDoIf_typ">
+      <File Name="C:/projects/laba/Logical/SDCAxisCtrl_Y/Main.c">
+        <Pos L="88" C="16" A="W" PS=" Ln:88, Col:16" />
+      </File>
+    </Var>
+    <Var Name="gAxis03_DrvIf.iLifeCnt" Scope="Global" Type="SdcDrvIf16_typ">
+      <File Name="C:/projects/laba/Logical/SDCAxisCtrl_Y/Main.c">
+        <Pos L="89" C="15" A="W" PS=" Ln:89, Col:15" />
+      </File>
+    </Var>
+  </Vars>
+  <Consts>
+    <Const Name="ncSDC_ENC16" Scope="Global" Type="UINT">
+      <File Name="C:/projects/laba/Logical/SDCAxisCtrl_Y/Main.c">
+        <Pos L="15" C="26" A="R" PS=" Ln:15, Col:26" />
+      </File>
+    </Const>
+    <Const Name="ncSDC_DRVSERVO16" Scope="Global" Type="UINT">
+      <File Name="C:/projects/laba/Logical/SDCAxisCtrl_Y/Main.c">
+        <Pos L="17" C="25" A="R" PS=" Ln:17, Col:25" />
+      </File>
+    </Const>
+    <Const Name="ncSDC_DIDO" Scope="Global" Type="UINT">
+      <File Name="C:/projects/laba/Logical/SDCAxisCtrl_Y/Main.c">
+        <Pos L="16" C="26" A="R" PS=" Ln:16, Col:26" />
+      </File>
+    </Const>
+  </Consts>
+  <Funcs>
+    <Func Name="AsIOTimeCyclicStart" Lib="">
+      <File Name="C:/projects/laba/Logical/SDCAxisCtrl_Y/Main.c">
+        <Pos L="41" C="32" PS=" Ln:41, Col:32" />
+      </File>
+    </Func>
+    <Func Name="FB_Axis" Lib="">
+      <File Name="C:/projects/laba/Logical/SDCAxisCtrl_Y/Main.c">
+        <Pos L="55" C="3" PS=" Ln:55, Col:3" />
+        <Pos L="59" C="3" PS=" Ln:59, Col:3" />
+        <Pos L="65" C="3" PS=" Ln:65, Col:3" />
+        <Pos L="73" C="3" PS=" Ln:73, Col:3" />
+      </File>
+    </Func>
+    <Func Name="FB_Regulator" Lib="">
+      <File Name="C:/projects/laba/Logical/SDCAxisCtrl_Y/Main.c">
+        <Pos L="62" C="3" PS=" Ln:62, Col:3" />
+        <Pos L="71" C="3" PS=" Ln:71, Col:3" />
+      </File>
+    </Func>
+  </Funcs>
+</Crossref>

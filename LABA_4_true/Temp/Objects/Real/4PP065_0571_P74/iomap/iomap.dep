@@ -1,0 +1,4 @@
+$(AS_PROJECT_PATH)/logical/sdcaxisctrl_x/variables.var
+$(AS_PROJECT_PATH)/logical/libraries/library/library.fun
+$(AS_PROJECT_PATH)/logical/sdcaxisctrl_y/variables.var
+$(AS_PROJECT_PATH)/logical/sdcaxisctrl_z/variables.var

@@ -1,0 +1,25 @@
+VAR_CONFIG
+	::SDCAxisCtr:pwm_period AT %QW."X20MM4456".PeriodDurationPWM;
+	::SDCAxisCtr:coil_pwm_value AT %QW."X20MM4456".PulseWidthCurrentPWM04;
+	::SDCAxisCtr:axis_X.pwm_value AT %QW."X20MM4456".PulseWidthCurrentPWM01;
+	::SDCAxisCtr:axis_X.reset_error AT %QX."X20MM4456".ClearError01;
+	::SDCAxisCtr:axis_X.reset_counter AT %QX."X20MM4456".ResetCounter01;
+	::SDCAxisCtr:axis_X.counter AT %IW."X20MM4456".Counter01;
+	::SDCAxisCtr:axis_X.endswitch_a_reached AT %IX."X20MM4456".StatusInput03;
+	::SDCAxisCtr:axis_X.endswitch_b_reached AT %IX."X20MM4456".StatusInput04;
+	::SDCAxisCtr:coil_powered_X AT %IX."X20DI9371".DigitalInput02;
+	::SDCAxisCt1:coil_powered_Y AT %IX."X20DI9371".DigitalInput03;
+	::SDCAxisCt2:coil_powered_Z AT %IX."X20DI9371".DigitalInput04;
+	::SDCAxisCt1:gaxis03.pwm_value AT %QW."X20MM4456".PulseWidthCurrentPWM02;
+	::SDCAxisCt1:gaxis03.reset_error AT %QX."X20MM4456".ClearError02;
+	::SDCAxisCt1:gaxis03.reset_counter AT %QX."X20MM4456".ResetCounter02;
+	::SDCAxisCt1:gaxis03.counter AT %IW."X20MM4456".Counter02;
+	::SDCAxisCt1:gaxis03.endswitch_a_reached AT %IX."X20MM4456".StatusInput07;
+	::SDCAxisCt1:gaxis03.endswitch_b_reached AT %IX."X20MM4456".StatusInput08;
+	::SDCAxisCt2:gaxis05.pwm_value AT %QW."X20MM4456".PulseWidthCurrentPWM03;
+	::SDCAxisCt2:gaxis05.reset_error AT %QX."X20MM4456".ClearError03;
+	::SDCAxisCt2:gaxis05.reset_counter AT %QX."X20MM4456".ResetCounter03;
+	::SDCAxisCt2:gaxis05.counter AT %IW."X20MM4456".Counter03;
+	::SDCAxisCt2:gaxis05.endswitch_a_reached AT %IX."X20MM4456".StatusInput11;
+	::SDCAxisCt2:gaxis05.endswitch_b_reached AT %IX."X20MM4456".StatusInput12;
+END_VAR

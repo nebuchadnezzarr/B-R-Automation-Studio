@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package Version="5.02.1" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="DataObject" Language="Cnc">gmcipsys</Object>
+    <Object Type="DataObject" Language="Cnc">gmciplbr</Object>
+    <Object Type="DataObject" Language="Cnc">gmcipcbr</Object>
+    <Object Type="DataObject" Language="Cnc">gmciplsm</Object>
+    <Object Type="DataObject" Language="Cnc">gmcipcsm</Object>
+    <Object Type="DataObject" Language="Cnc">gmcipcfg</Object>
+    <Object Type="DataObject" Language="Cnc">gmcipiec</Object>
+    <Object Type="DataObject" Language="Cnc">gmciplog</Object>
+    <Object Type="DataObject" Language="Cnc">gmcipesm</Object>
+    <Object Type="DataObject" Language="Cnc">gmcipmxd</Object>
+    <Object Type="DataObject" Language="Cnc">gmcipmx</Object>
+  </Objects>
+</Package>

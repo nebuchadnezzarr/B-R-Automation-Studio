@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.5.2.102?>
+<InitParameter Version="3.13.0" NcSwId="ARNC0">
+  <Group ID="ARNC0CNC_typ">
+    <Group ID="limit">
+      <Parameter ID="v" Value="6500.0" />
+      <Parameter ID="a_pos" Value="10000.0" />
+      <Parameter ID="a_neg" Value="10000.0" />
+      <Parameter ID="t_jolt" Value="0" />
+      <Parameter ID="blocktransition" Value="ncSTANDARD" />
+      <Parameter ID="v_jump" Value="0" />
+      <Parameter ID="a_jump" Value="10" />
+      <Parameter ID="v_jump_t" Value="0" />
+      <Parameter ID="s_jump_t" Value="0.5" />
+      <Parameter ID="s_sync1_t" Value="ncOFF" />
+      <Parameter ID="s_sync2_t" Value="ncOFF" />
+      <Parameter ID="radius_err" Value="1" />
+      <Parameter ID="block_buffer" Value="35" />
+      <Parameter ID="elements" Value="10" />
+      <Parameter ID="lookahead" Value="38" />
+      <Parameter ID="halt" Value="ncOFF" />
+      <Parameter ID="filter_err" Value="0.0" />
+      <Parameter ID="filter_err_trans" Value="0.0" />
+    </Group>
+    <Group ID="move">
+      <Group ID="stop">
+        <Parameter ID="decel_ramp" Value="ncA_MOVE + ncT_JOLT" />
+      </Group>
+      <Group ID="e_stop">
+        <Parameter ID="path" Value="ncSTANDARD" />
+      </Group>
+      <Group ID="ncprogram">
+        <Parameter ID="delete_mode" Value="ncOFF" />
+      </Group>
+      <Group ID="single_s">
+        <Parameter ID="mode" Value="ncSTANDARD" />
+        <Parameter ID="bit_pattern" Value="0" />
+      </Group>
+      <Group ID="skip_level">
+        <Parameter ID="level_0" Value="ncOFF" />
+        <Parameter ID="level_1" Value="ncOFF" />
+        <Parameter ID="level_2" Value="ncOFF" />
+        <Parameter ID="level_3" Value="ncOFF" />
+        <Parameter ID="level_4" Value="ncOFF" />
+        <Parameter ID="level_5" Value="ncOFF" />
+        <Parameter ID="level_6" Value="ncOFF" />
+        <Parameter ID="level_7" Value="ncOFF" />
+        <Parameter ID="level_8" Value="ncOFF" />
+        <Parameter ID="level_9" Value="ncOFF" />
+      </Group>
+    </Group>
+    <Group ID="decoder">
+      <Group ID="parameter">
+        <Parameter ID="move_cmd" Value="ncG00" />
+        <Parameter ID="plane" Value="ncXY" />
+        <Parameter ID="co_ords" Value="ncABSOLUTE" />
+        <Parameter ID="center" Value="ncRELATIVE" />
+        <Parameter ID="v_path" Value="0" />
+        <Group ID="cdc">
+          <Parameter ID="side" Value="ncOFF" />
+          <Parameter ID="entry" Value="ncDIRECT" />
+          <Parameter ID="circ_transition" Value="ncOFF" />
+          <Parameter ID="circ_replace" Value="ncOFF" />
+          <Parameter ID="contour_violation" Value="ncOFF" />
+          <Parameter ID="intersection_path" Value="ncOFF" />
+          <Parameter ID="feedrate" Value="10000" />
+          <Parameter ID="v_path_contour" Value="ncOFF" />
+          <Parameter ID="exit" Value="ncSTANDARD" />
+        </Group>
+        <Parameter ID="t_ax_period" Value="ncOFF" />
+        <Parameter ID="system_unit" Value="ncMM" />
+        <Parameter ID="v_path_mode" Value="ncSTANDARD" />
+        <Parameter ID="rot_pref_dir" Value="ncPOSITIVE" />
+        <Parameter ID="limit_switch_mode" Value="ncSTANDARD" />
+      </Group>
+    </Group>
+    <Group ID="axis">
+      <Group ID="axis[0]">
+        <Parameter ID="nc_object_name" Value="AxisX" />
+        <Parameter ID="name" Value="X" />
+        <Parameter ID="type" Value="ncLINEAR" />
+        <Parameter ID="ipl_mode" Value="ncQUADRATIC_NO_OVERSHOOT" />
+        <Parameter ID="unitfactor" Value="1.0" />
+        <Parameter ID="t_axfilter" Value="0.0" />
+        <Parameter ID="drive_axfilter" Value="ncON" />
+        <Parameter ID="rot_period" Value="360.0" />
+        <Parameter ID="rot_offset" Value="0.0" />
+        <Parameter ID="add_par_id" Value="0" />
+      </Group>
+      <Group ID="axis[1]">
+        <Parameter ID="nc_object_name" Value="gAxis03" />
+        <Parameter ID="name" Value="Y" />
+        <Parameter ID="type" Value="ncCNC" />
+        <Parameter ID="ipl_mode" Value="ncQUADRATIC_NO_OVERSHOOT" />
+        <Parameter ID="unitfactor" Value="1.0" />
+        <Parameter ID="t_axfilter" Value="0.0" />
+        <Parameter ID="drive_axfilter" Value="ncON" />
+        <Parameter ID="rot_period" Value="360.0" />
+        <Parameter ID="rot_offset" Value="0.0" />
+        <Parameter ID="add_par_id" Value="0" />
+      </Group>
+      <Group ID="axis[2]">
+        <Parameter ID="nc_object_name" Value="gAxis05" />
+        <Parameter ID="name" Value="Z" />
+        <Parameter ID="type" Value="ncCNC" />
+        <Parameter ID="ipl_mode" Value="ncQUADRATIC_NO_OVERSHOOT" />
+        <Parameter ID="unitfactor" Value="1.0" />
+        <Parameter ID="t_axfilter" Value="0.0" />
+        <Parameter ID="drive_axfilter" Value="ncON" />
+        <Parameter ID="rot_period" Value="360.0" />
+        <Parameter ID="rot_offset" Value="0.0" />
+        <Parameter ID="add_par_id" Value="0" />
+      </Group>
+      <Group ID="axis[3]">
+        <Parameter ID="nc_object_name" />
+        <Parameter ID="name" />
+        <Parameter ID="type" Value="ncCNC" />
+        <Parameter ID="ipl_mode" Value="ncQUADRATIC_NO_OVERSHOOT" />
+        <Parameter ID="unitfactor" Value="1.0" />
+        <Parameter ID="t_axfilter" Value="0.0" />
+        <Parameter ID="drive_axfilter" Value="ncON" />
+        <Parameter ID="rot_period" Value="360.0" />
+        <Parameter ID="rot_offset" Value="0.0" />
+        <Parameter ID="add_par_id" Value="0" />
+      </Group>
+      <Group ID="axis[4]">
+        <Parameter ID="nc_object_name" />
+        <Parameter ID="name" />
+        <Parameter ID="type" Value="ncCNC" />
+        <Parameter ID="ipl_mode" Value="ncQUADRATIC_NO_OVERSHOOT" />
+        <Parameter ID="unitfactor" Value="1.0" />
+        <Parameter ID="t_axfilter" Value="0.0" />
+        <Parameter ID="drive_axfilter" Value="ncON" />
+        <Parameter ID="rot_period" Value="360.0" />
+        <Parameter ID="rot_offset" Value="0.0" />
+        <Parameter ID="add_par_id" Value="0" />
+      </Group>
+      <Group ID="axis[5]">
+        <Parameter ID="nc_object_name" />
+        <Parameter ID="name" />
+        <Parameter ID="type" Value="ncCNC" />
+        <Parameter ID="ipl_mode" Value="ncQUADRATIC_NO_OVERSHOOT" />
+        <Parameter ID="unitfactor" Value="1.0" />
+        <Parameter ID="t_axfilter" Value="0.0" />
+        <Parameter ID="drive_axfilter" Value="ncON" />
+        <Parameter ID="rot_period" Value="360.0" />
+        <Parameter ID="rot_offset" Value="0.0" />
+        <Parameter ID="add_par_id" Value="0" />
+      </Group>
+      <Group ID="axis[6]">
+        <Parameter ID="nc_object_name" />
+        <Parameter ID="name" />
+        <Parameter ID="type" Value="ncCNC" />
+        <Parameter ID="ipl_mode" Value="ncQUADRATIC_NO_OVERSHOOT" />
+        <Parameter ID="unitfactor" Value="1.0" />
+        <Parameter ID="t_axfilter" Value="0.0" />
+        <Parameter ID="drive_axfilter" Value="ncON" />
+        <Parameter ID="rot_period" Value="360.0" />
+        <Parameter ID="rot_offset" Value="0.0" />
+        <Parameter ID="add_par_id" Value="0" />
+      </Group>
+      <Group ID="axis[7]">
+        <Parameter ID="nc_object_name" />
+        <Parameter ID="name" />
+        <Parameter ID="type" Value="ncCNC" />
+        <Parameter ID="ipl_mode" Value="ncQUADRATIC_NO_OVERSHOOT" />
+        <Parameter ID="unitfactor" Value="1.0" />
+        <Parameter ID="t_axfilter" Value="0.0" />
+        <Parameter ID="drive_axfilter" Value="ncON" />
+        <Parameter ID="rot_period" Value="360.0" />
+        <Parameter ID="rot_offset" Value="0.0" />
+        <Parameter ID="add_par_id" Value="0" />
+      </Group>
+      <Group ID="axis[8]">
+        <Parameter ID="nc_object_name" />
+        <Parameter ID="name" />
+        <Parameter ID="type" Value="ncCNC" />
+        <Parameter ID="ipl_mode" Value="ncQUADRATIC_NO_OVERSHOOT" />
+        <Parameter ID="unitfactor" Value="1.0" />
+        <Parameter ID="t_axfilter" Value="0.0" />
+        <Parameter ID="drive_axfilter" Value="ncON" />
+        <Parameter ID="rot_period" Value="360.0" />
+        <Parameter ID="rot_offset" Value="0.0" />
+        <Parameter ID="add_par_id" Value="0" />
+      </Group>
+      <Group ID="axis[9]">
+        <Parameter ID="nc_object_name" />
+        <Parameter ID="name" />
+        <Parameter ID="type" Value="ncCNC" />
+        <Parameter ID="ipl_mode" Value="ncQUADRATIC_NO_OVERSHOOT" />
+        <Parameter ID="unitfactor" Value="1.0" />
+        <Parameter ID="t_axfilter" Value="0.0" />
+        <Parameter ID="drive_axfilter" Value="ncON" />
+        <Parameter ID="rot_period" Value="360.0" />
+        <Parameter ID="rot_offset" Value="0.0" />
+        <Parameter ID="add_par_id" Value="0" />
+      </Group>
+      <Group ID="axis[10]">
+        <Parameter ID="nc_object_name" />
+        <Parameter ID="name" />
+        <Parameter ID="type" Value="ncCNC" />
+        <Parameter ID="ipl_mode" Value="ncQUADRATIC_NO_OVERSHOOT" />
+        <Parameter ID="unitfactor" Value="1.0" />
+        <Parameter ID="t_axfilter" Value="0.0" />
+        <Parameter ID="drive_axfilter" Value="ncON" />
+        <Parameter ID="rot_period" Value="360.0" />
+        <Parameter ID="rot_offset" Value="0.0" />
+        <Parameter ID="add_par_id" Value="0" />
+      </Group>
+      <Group ID="axis[11]">
+        <Parameter ID="nc_object_name" />
+        <Parameter ID="name" />
+        <Parameter ID="type" Value="ncCNC" />
+        <Parameter ID="ipl_mode" Value="ncQUADRATIC_NO_OVERSHOOT" />
+        <Parameter ID="unitfactor" Value="1.0" />
+        <Parameter ID="t_axfilter" Value="0.0" />
+        <Parameter ID="drive_axfilter" Value="ncON" />
+        <Parameter ID="rot_period" Value="360.0" />
+        <Parameter ID="rot_offset" Value="0.0" />
+        <Parameter ID="add_par_id" Value="0" />
+      </Group>
+      <Group ID="axis[12]">
+        <Parameter ID="nc_object_name" />
+        <Parameter ID="name" />
+        <Parameter ID="type" Value="ncCNC" />
+        <Parameter ID="ipl_mode" Value="ncQUADRATIC_NO_OVERSHOOT" />
+        <Parameter ID="unitfactor" Value="1.0" />
+        <Parameter ID="t_axfilter" Value="0.0" />
+        <Parameter ID="drive_axfilter" Value="ncON" />
+        <Parameter ID="rot_period" Value="360.0" />
+        <Parameter ID="rot_offset" Value="0.0" />
+        <Parameter ID="add_par_id" Value="0" />
+      </Group>
+      <Group ID="axis[13]">
+        <Parameter ID="nc_object_name" />
+        <Parameter ID="name" />
+        <Parameter ID="type" Value="ncCNC" />
+        <Parameter ID="ipl_mode" Value="ncQUADRATIC_NO_OVERSHOOT" />
+        <Parameter ID="unitfactor" Value="1.0" />
+        <Parameter ID="t_axfilter" Value="0.0" />
+        <Parameter ID="drive_axfilter" Value="ncON" />
+        <Parameter ID="rot_period" Value="360.0" />
+        <Parameter ID="rot_offset" Value="0.0" />
+        <Parameter ID="add_par_id" Value="0" />
+      </Group>
+      <Group ID="axis[14]">
+        <Parameter ID="nc_object_name" />
+        <Parameter ID="name" />
+        <Parameter ID="type" Value="ncCNC" />
+        <Parameter ID="ipl_mode" Value="ncQUADRATIC_NO_OVERSHOOT" />
+        <Parameter ID="unitfactor" Value="1.0" />
+        <Parameter ID="t_axfilter" Value="0.0" />
+        <Parameter ID="drive_axfilter" Value="ncON" />
+        <Parameter ID="rot_period" Value="360.0" />
+        <Parameter ID="rot_offset" Value="0.0" />
+        <Parameter ID="add_par_id" Value="0" />
+      </Group>
+      <Group ID="transformation">
+        <Parameter ID="name" Value="0" />
+        <Parameter ID="trf_full" Value="ncOFF" />
+        <Parameter ID="trf_type" Value="0" />
+        <Parameter ID="axes_tcp[0]" Value="0" />
+        <Parameter ID="axes_tcp[1]" Value="0" />
+        <Parameter ID="axes_tcp[2]" Value="0" />
+        <Parameter ID="axes_tcp[3]" Value="0" />
+        <Parameter ID="axes_tcp[4]" Value="0" />
+        <Parameter ID="axes_tcp[5]" Value="0" />
+        <Parameter ID="axes_tcp[6]" Value="0" />
+        <Parameter ID="axes_tcp[7]" Value="0" />
+        <Parameter ID="axes_tcp[8]" Value="0" />
+        <Parameter ID="axes_tcp[9]" Value="0" />
+        <Parameter ID="axes_tcp[10]" Value="0" />
+        <Parameter ID="axes_tcp[11]" Value="0" />
+        <Parameter ID="axes_joint[0]" Value="0" />
+        <Parameter ID="axes_joint[1]" Value="0" />
+        <Parameter ID="axes_joint[2]" Value="0" />
+        <Parameter ID="axes_joint[3]" Value="0" />
+        <Parameter ID="axes_joint[4]" Value="0" />
+        <Parameter ID="axes_joint[5]" Value="0" />
+        <Parameter ID="axes_joint[6]" Value="0" />
+        <Parameter ID="axes_joint[7]" Value="0" />
+        <Parameter ID="axes_joint[8]" Value="0" />
+        <Parameter ID="axes_joint[9]" Value="0" />
+        <Parameter ID="axes_joint[10]" Value="0" />
+        <Parameter ID="axes_joint[11]" Value="0" />
+        <Parameter ID="axes_frame[0]" Value="255" />
+        <Parameter ID="axes_frame[1]" Value="255" />
+        <Parameter ID="axes_frame[2]" Value="255" />
+        <Parameter ID="axes_frame[3]" Value="255" />
+        <Parameter ID="axes_frame[4]" Value="255" />
+        <Parameter ID="axes_frame[5]" Value="255" />
+        <Parameter ID="in_pos_tolerance" Value="1.0" />
+      </Group>
+    </Group>
+    <Group ID="cnc_plc">
+      <Group ID="parameter">
+        <Parameter ID="t_fcn_init" Value="ncOFF" />
+        <Parameter ID="s_fcn_init" Value="ncOFF" />
+        <Parameter ID="first_M" Value="40" />
+        <Parameter ID="last_M" Value="49" />
+        <Parameter ID="first_M_S" Value="50" />
+        <Parameter ID="last_M_S" Value="59" />
+      </Group>
+    </Group>
+    <Group ID="restart">
+      <Group ID="parameter">
+        <Parameter ID="param_buffer" Value="0" />
+        <Parameter ID="trigger_buffer" Value="10" />
+      </Group>
+    </Group>
+    <Group ID="message">
+      <Group ID="text">
+        <Group ID="parameter">
+          <Parameter ID="format" Value="ncBREAK" />
+          <Parameter ID="columns" Value="80" />
+          <Parameter ID="data_modul" Value="arnc0001" />
+        </Group>
+      </Group>
+    </Group>
+    <Group ID="err_cl0">
+      <Parameter ID="number[0]" Value="0" />
+      <Parameter ID="number[1]" Value="0" />
+      <Parameter ID="number[2]" Value="0" />
+      <Parameter ID="number[3]" Value="0" />
+      <Parameter ID="number[4]" Value="0" />
+      <Parameter ID="number[5]" Value="0" />
+      <Parameter ID="number[6]" Value="0" />
+      <Parameter ID="number[7]" Value="0" />
+      <Parameter ID="number[8]" Value="0" />
+      <Parameter ID="number[9]" Value="0" />
+      <Parameter ID="number[10]" Value="0" />
+      <Parameter ID="number[11]" Value="0" />
+      <Parameter ID="number[12]" Value="0" />
+      <Parameter ID="number[13]" Value="0" />
+      <Parameter ID="number[14]" Value="0" />
+      <Parameter ID="number[15]" Value="0" />
+      <Parameter ID="number[16]" Value="0" />
+      <Parameter ID="number[17]" Value="0" />
+      <Parameter ID="number[18]" Value="0" />
+      <Parameter ID="number[19]" Value="0" />
+    </Group>
+  </Group>
+</InitParameter>
